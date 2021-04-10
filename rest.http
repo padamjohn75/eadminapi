@@ -2,5 +2,12 @@
 GET  http://localhost:8000
 
 
+### login api endpoint
+POST  http://localhost:8000/api/v1/login
+Content-Type: application/json
 
+{
+    "email":"abc@gmail.com",
+    "password":"1234"
 
+}
